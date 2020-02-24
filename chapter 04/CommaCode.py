@@ -28,17 +28,17 @@ def sentence_maker(mylist):
         else:
             print(sentence)
     
-    another approach
-    if len(mylist)==1:
-        print(mylist[0])
-    else:
-        mylist.insert(len(mylist)-1,'and')
-        print(*mylist, sep=', ')
+#     Try Code
+#     if len(mylist)==1:
+#         print(mylist[0])
+#     else:
+#         mylist.insert(len(mylist)-1,'and')
+#         print(*mylist, sep=', ')
     
     
     
 spam = ['apples', 'bananas', 'tofu', 'cats' , 'eggs' , 'ketchup']  #testcase1
-spam = ['apples', 'oranges' , 'eggs']                              #testcase2
-spam= []                                                           #testcase3
+# spam = ['apples', 'oranges' , 'eggs']                              #testcase2
+# spam= []                                                           #testcase3
 
 sentence_maker(spam)
