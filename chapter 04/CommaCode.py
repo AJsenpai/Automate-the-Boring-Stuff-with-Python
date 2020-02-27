@@ -10,7 +10,7 @@
 # tofu, and cats'. But your function should be able to work with any list value passed to it. Be sure to test the case where an empty 
 # list [] is passed to your function.
 
-########################################################################################################################################
+# ######################################################################################################################################
 
 def sentence_maker(mylist):
     
