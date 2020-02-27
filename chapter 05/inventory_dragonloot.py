@@ -11,20 +11,19 @@
 # #########################################################################################################################################
 
 
-
 def displayInventory(inventory):
-    item_total = 0
+    totalitem=0
     print("Inventory:")
-    for k, v in inventory.items():
-        # print(str(v)+' '+k)
-        print(v,k)
-        item_total+= v
-    print("Total number of items: " + str(item_total))
+    for k,v in inventory.items():
+        totalitem+=v
+        print(str(v)+' '+k)
+    print("Total number of items: ",str(totalitem))
+
     
 def addToInventory(inventory, addedItems):
     for item in addedItems:
-        inventory.setdefault(str(item),0)
-        inventory[item] += 1
+        inventory.setdefault(item,0)
+        inventory[item]+=1
     
 
 inv = {'gold coin': 42, 'rope': 1}
