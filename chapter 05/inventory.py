@@ -1,5 +1,5 @@
 # Date: 02/26/2020
-# Topic: Dictonaries
+# Topic: Dictonaries | Practice Project
 
 # Fantasy Game Inventory
 # You are creating a fantasy video game. The data structure to model the player’s inventory will be a dictionary where the keys are 
