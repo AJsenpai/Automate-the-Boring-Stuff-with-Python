@@ -35,10 +35,11 @@ def printTable(dataLists):
 # this is important step as this loop will iterate apples(0,0) Alice(1,0) dogs(2,0)
 #     for x in range(len(dataLists[0])):  
 #         print(str(dataLists[0][x]).rjust(y) + str(dataLists[1][x]).rjust(y) + str(dataLists[2][x]).rjust(y))
-
-    for row in range(items_in_lists):       
-            for col in range(num_of_lists):
-                print(dataLists[col][row].rjust(y), end=' ')
-            print('')
+     
+    for col in range(items_in_list):
+        for row in range(num_of_lists):
+            print(str(dataLists[row][col].rjust(y)), end=" ")
+        print(" ")
+        
 
 printTable(tableData)
