@@ -1,16 +1,18 @@
 # Date: 03/05/2020
 # Topic : Regular Expression with Python
 #
-Strong Password Detection
-Write a function that uses regular expressions to make sure the password string it is passed is strong. A strong password is defined as 
-one that is at least eight characters long, contains both uppercase and lowercase characters, and has at least one digit. You may need to 
-test the string against multiple regex patterns to validate its strength.
+### Practice Project ###
+# Strong Password Detection
+# Write a function that uses regular expressions to make sure the password string it is passed is strong. A strong password is defined as 
+# one that is at least eight characters long, contains both uppercase and lowercase characters, and has at least one digit. You may need to 
+# test the string against multiple regex patterns to validate its strength.
+# ######################################################################################################################################
 
 
 import re,getpass
 
 def password_checker(pwd_to_check):
-    
+    # you can also use re.match(r'regualar expression') with if to check the Regex 
     uppercheck = re.compile(r'[A-Z]')
     lowercheck = re.compile(r'[a-z]')
     digitcheck = re.compile(r'[0-9]')
@@ -26,7 +28,8 @@ def password_checker(pwd_to_check):
     if len(pwd_to_check)>7 and mospecial and modigit and molower and moupper:
         print("your password is Strong")
     else:
-        print(""" \nPassword should contain:
+        print(""" \nPassword Rules:
+                  * Password should have min length of 8 characters
                   * Atleast one uppercase letter
                   * Atleast one lowercase letter
                   * Atleast one digit
