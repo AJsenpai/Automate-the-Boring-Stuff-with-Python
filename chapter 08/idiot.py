@@ -1,5 +1,6 @@
 # Date: 03/13/2020
 # Topic : input validation using pyinputplus module
+# Desc: practice program to check check for input validation yes or no
 # #########################################################################################################################################
 
 import pyinputplus as pyip 
