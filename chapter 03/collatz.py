@@ -1,6 +1,6 @@
 # Author : Ajay 
 # Date : 02/20/2020
-# Chapter 03: Functions
+# Chapter 03: Functions()
 
 # The Collatz Sequence
 # Write a function named collatz() that has one parameter named number. If number is even, then collatz() should print number // 2 and 
