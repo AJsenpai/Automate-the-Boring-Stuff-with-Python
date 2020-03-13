@@ -2,7 +2,7 @@
 # Date: 03/01/2020
 # Topic : Manipulating Strings
 # Description: add wikipedia bullet point to the start of each line of text on the clipboard
-# #########################################################################################################################################
+# ########################################################################################################################################
 import pyperclip
 
 text = pyperclip.paste()
