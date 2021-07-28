@@ -1,2 +1,3 @@
 # Automate-the-Boring-Stuff-with-Python
-This repository contains solutions to practice exercise 
+https://automatetheboringstuff.com/
+This repository contains assignment solutions and chapter exercises 
